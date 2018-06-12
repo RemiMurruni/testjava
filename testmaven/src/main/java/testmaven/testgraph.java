@@ -31,12 +31,13 @@ public class testgraph {
 		
 		Map<String, ?> saturnProps = g.V().has("name", "saturn").valueMap(true).next();
 		
-		saturnProps.toString();
-        System.out.println("ceci est un test");
+		
+        System.out.println(saturnProps.toString());
 		
         GraphTraversal<Vertex, Vertex> test = g.V();
         
-        test.toString();
+
+        System.out.println(test.toString());
         
 		System.exit(0);
 
