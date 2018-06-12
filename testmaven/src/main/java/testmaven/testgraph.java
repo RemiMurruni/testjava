@@ -1,6 +1,7 @@
 package testmaven;
 
 
+import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal;
 import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversalSource;
 import org.apache.tinkerpop.gremlin.structure.Edge;
 import org.apache.tinkerpop.gremlin.structure.Vertex;
@@ -33,6 +34,10 @@ public class testgraph {
 		saturnProps.toString();
         System.out.println("ceci est un test");
 		
+        GraphTraversal<Vertex, Vertex> test = g.V();
+        
+        test.toString();
+        
 		System.exit(0);
 
 	}
