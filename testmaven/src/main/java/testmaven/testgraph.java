@@ -24,7 +24,7 @@ public class testgraph {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		JanusGraph graph = JanusGraphFactory.open("conf/janusgrah-berkeleyje-lucene.properties");
+		JanusGraph graph = JanusGraphFactory.open("conf/janusgraph-berkeleyje-lucene.properties");
 		GraphOfTheGodsFactory.load(graph);
 		GraphTraversalSource g = graph.traversal();
 		
