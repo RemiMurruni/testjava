@@ -31,7 +31,7 @@ public class testgraph {
 		Map<String, ?> saturnProps = g.V().has("name", "saturn").valueMap(true).next();
 		
 		saturnProps.toString();
-
+        System.out.println("ceci est un test");
 		
 		System.exit(0);
 
