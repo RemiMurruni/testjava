@@ -29,9 +29,11 @@ public class testgraph {
 		GraphTraversalSource g = graph.traversal();
 		
 		Map<String, ?> saturnProps = g.V().has("name", "saturn").valueMap(true).next();
+		
+		saturnProps.toString();
 
 		
-		
+		System.exit(0);
 
 	}
 
